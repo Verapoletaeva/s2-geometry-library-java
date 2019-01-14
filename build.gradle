@@ -18,5 +18,7 @@ dependencies {
 }
 
 test {
-    include '**/*test*'
+    filter {
+        includeTestsMatching '**/*test*'
+    }
 }
